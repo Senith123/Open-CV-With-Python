@@ -1,0 +1,36 @@
+import cv2 
+import numpy as np
+# # img1 = cv2.imread("Images\star addition.jpeg")
+# # img2 = cv2.imread("Images\diamond addition.jpeg")
+# # add = cv2.addWeighted(img1, 0.8, img2, 0.4, 0)
+# # subtract = cv2.subtract(img2, img1)
+# # resized_img2 = cv2.resize(img2, (400, 260))
+# # cv2.imshow("resized_image", resized_img2)
+# # cv2.waitKey(0)
+# # img3 = cv2.imread("Images\pika.png")
+# # matrix = np.ones((5,5), np.uint8)
+# # erosion = cv2.erode(img3, matrix)
+# # cv2.imshow("eroded_image", erosion)
+# # cv2.waitKey(0)
+
+# # Gaussian Blur
+# img4 = cv2.imread("Images\Bilateral.jpg")
+# # blur = cv2.GaussianBlur(img4, (7, 7), 0)
+# # cv2.imshow("blur_image", blur)
+# # cv2.waitKey(0)
+
+# # Median Blur
+# # img5 = cv2.imread("Images\salt and pepper grains.jpeg")
+# # median = cv2.medianBlur(img5, 5)
+# # cv2.imshow("median_image", median)
+# # cv2.waitKey(0)
+
+# # Bilateral Blur
+# bilateral = cv2.bilateralFilter(img4, 9, 75, 75)
+# cv2.imshow("bilateral_image", bilateral)
+# cv2.waitKey(0)
+
+# img6 = cv2.imread("Images\Videocollage3.jpg")
+# border = cv2.copyMakeBorder(img6, 50, 50, 50, 50, cv2.BORDER_REFLECT)
+# cv2.imshow("border_image", border)
+# cv2.waitKey(0)
