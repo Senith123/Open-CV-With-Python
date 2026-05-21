@@ -1,0 +1,10 @@
+import cv2
+img1 = cv2.imread("Images\Videocollage2.jpg")
+# # gray = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
+# hsv = cv2.cvtColor(img1, cv2.COLOR_BGR2HSV)
+# cv2.imshow("convert_image", hsv)
+# cv2.waitKey(0)
+
+edges = cv2.Canny(img1, 300, 500)
+cv2.imshow("edges_image", edges)
+cv2.waitKey(0)
